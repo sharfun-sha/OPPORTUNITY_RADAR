@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0b1020;
+  color: #e8ecf7;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #8b80ff;
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #7167ff;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #10182a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #414b70;
+  border-radius: 10px;
+}
+
+#root {
+  min-height: 100vh;
+}
